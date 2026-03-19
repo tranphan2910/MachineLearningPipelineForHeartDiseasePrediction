@@ -39,17 +39,13 @@ The goal is to create an accurate, interpretable, and scalable model for heart d
 3. **Permutation Importance**: Measures model performance change after feature shuffling.
 
 ### Comparison of Evaluation Metrics:
-- **Accuracy**:  
-   - Measures overall correctness of the model.
+- **Accuracy**:  Measures overall correctness of the model.
   
-- **Precision**:  
-   - Focuses on minimizing false positives; useful in imbalanced datasets.
+- **Precision**: Focuses on minimizing false positives; useful in imbalanced datasets.
 
-- **Recall**:  
-   - Focuses on minimizing false negatives; important for detecting true positives.
+- **Recall**: Focuses on minimizing false negatives; important for detecting true positives.
 
-- **F1 Score**:  
-   - Harmonic mean of Precision and Recall; balances both metrics.
+- **F1 Score**: Harmonic mean of Precision and Recall; balances both metrics.
 
 ### Interactive UI:
 - **Streamlit-based** with professional design.
