@@ -98,8 +98,9 @@ After generating local explanations with **LIME**, the outputs are often complex
 ### **1. Install Dependencies**
 
 To ensure that the project runs smoothly, install all necessary Python packages using the following command from your terminal (in your project directory):
-
+   ```
 pip install -r requirements.txt
+   ```
 
 ## 2. Set Up the .env File
 
