@@ -4,7 +4,7 @@
 1. [Overview of Topic](#1-overview-of-topic)
 2. [Workflow](#2-workflow-overview)
 3. [Evaluation and Model Improvement](#3-evaluation-and-model-improvement)
-4. [Prediction Results and Explanation using LLM](#4-screenshots--flow-diagram)
+4. [Prediction Results and Explanation using LLM](#4-prediction-results-and-explanation-using-llm)
 5. [Final Setup Instructions](#5-final-setup-instructions)
 
 ---
