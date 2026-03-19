@@ -95,7 +95,7 @@ After generating local explanations with **LIME**, the outputs are often complex
 
 ## **5. Final Setup Instructions**
 
-### **1. Install Dependencies**
+## 1. Install Dependencies**
 
 To ensure that the project runs smoothly, install all necessary Python packages using the following command from your terminal (in your project directory):
    ```
