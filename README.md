@@ -118,7 +118,6 @@ After setting up your environment, run the app by executing this command:
 
     ```
 streamlit run app.py
-
     ```
 
 ### 4. Interacting with the App
