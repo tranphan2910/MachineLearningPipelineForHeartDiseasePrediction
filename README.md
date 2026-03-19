@@ -23,8 +23,7 @@ This project includes:
 - Integration of **Groq API** to improve processing speed and efficiency for prediction and explanation.
 The goal is to create an accurate, interpretable, and scalable model for heart disease prediction that can be applied in real-world healthcare applications.
 
----
-# Key Features and Techniques
+## **Key Features and Techniques**
 
 ### 6 Machine Learning Models:
 1. **Neural Network**
