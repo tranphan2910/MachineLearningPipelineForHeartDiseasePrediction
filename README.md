@@ -24,7 +24,40 @@ This project includes:
 The goal is to create an accurate, interpretable, and scalable model for heart disease prediction that can be applied in real-world healthcare applications.
 
 ---
+# Key Features and Techniques
 
+### 6 Machine Learning Models:
+1. **Neural Network**
+2. **XGBoost**
+3. **Random Forest**
+4. **Gradient Boosting**
+5. **Logistic Regression**
+6. **Gaussian Naive Bayes**
+
+### 3 XAI Methods:
+1. **SHAP (Shapley Values)**: Provides feature importance based on cooperative game theory.
+2. **LIME (Local Interpretable Model-agnostic Explanations)**: Explains individual predictions locally.
+3. **Permutation Importance**: Measures model performance change after feature shuffling.
+
+### Comparison of Evaluation Metrics:
+- **Accuracy**:  
+   - Measures overall correctness of the model.
+  
+- **Precision**:  
+   - Focuses on minimizing false positives; useful in imbalanced datasets.
+
+- **Recall**:  
+   - Focuses on minimizing false negatives; important for detecting true positives.
+
+- **F1 Score**:  
+   - Harmonic mean of Precision and Recall; balances both metrics.
+
+### Interactive UI:
+- **Streamlit-based** with professional design.
+- Easy-to-use interface for inputting data and viewing predictions.
+- Provides real-time feedback and model explanations.
+
+---
 ## **2. Workflow Overview**
 
 The diagram below illustrates the overall workflow of the heart disease prediction syste.
