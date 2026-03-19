@@ -98,9 +98,9 @@ After generating local explanations with **LIME**, the outputs are often complex
 ### 1. Install Dependencies**
 
 To ensure that the project runs smoothly, install all necessary Python packages using the following command from your terminal (in your project directory):
-   ```
+```
 pip install -r requirements.txt
-   ```
+ ```
 
 ### 2. Set Up the .env File
 
@@ -108,9 +108,9 @@ pip install -r requirements.txt
 - Create a `.env` file in the project root directory (if it doesn't exist already).
 - Add the following lines to your `.env` file:
 
-    ```
-    GROQ_API_KEY=your_generated_api_key
-    ```
+ ```
+ GROQ_API_KEY=your_generated_api_key
+ ```
 
 ### 3. Run the Streamlit Application
 
@@ -125,9 +125,9 @@ After setting up your environment, run the app by executing this command:
 
 - When the app runs successfully, you'll see a URL in your terminal, usually: 
 
-    ```
-    http://localhost:8501
-    ```
+ ```
+ http://localhost:8501
+ ```
 
 - Open the URL in your browser to interact with the app.
 
