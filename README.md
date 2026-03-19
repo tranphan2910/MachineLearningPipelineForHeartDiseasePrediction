@@ -5,7 +5,7 @@
 2. [Workflow](#2-workflow-overview)
 3. [Evaluation and Model Improvement](#3-evaluation-and-model-improvement)
 4. [Prediction Results and Explanation using LLM](#4-screenshots--flow-diagram)
-5. [Final Setup Instructions](#6-final-setup-instructions)
+5. [Final Setup Instructions](#5-final-setup-instructions)
 
 ---
 
