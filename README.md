@@ -39,7 +39,7 @@ The models in this project are evaluated on various metrics like **accuracy**, *
 
 ### **Model Performance Comparison**
 
-**1. No Feature Engineering vs Applied Feature Engineering** 
+### **1. No Feature Engineering vs Applied Feature Engineering** 
 
 In the initial stage, models were tested without any feature engineering (No FE). Then, feature engineering techniques were applied to improve the dataset and model performance. The Feature Engineering (FE) in this project specifically involves removing weak entities based on exploratory data analysis (EDA) using boxplots and statistical testing using Welch's t-test. These techniques help in identifying and removing features that do not significantly contribute to the model's predictive power.
 
@@ -49,7 +49,7 @@ In the initial stage, models were tested without any feature engineering (No FE)
 
 <img width="1524" height="834" alt="image" src="https://github.com/user-attachments/assets/c64453e3-1d29-480c-9601-67871354ac47" />
 
-**2. After Tuning vs After XAI-Guided Improvement** 
+### **2. After Tuning vs After XAI-Guided Improvement** 
 
 ### **XAI-Guided Model Improvement Workflow**
 
@@ -90,6 +90,7 @@ Together, **SHAP** and **PI** provide a comprehensive global explanation of feat
 ## **4. Prediction Results and Explanation using LLM**
 After generating local explanations with **LIME**, the outputs are often complex and difficult for non-technical users to interpret. To make the explanations more accessible for clinical use, the LIME outputs are converted into clear, easy-to-understand descriptions using a **Large Language Model (LLM)**.
 
+
 <img width="1151" height="689" alt="image" src="https://github.com/user-attachments/assets/df70aed3-964f-4b64-ab24-49b724128c9b" />
 
 ## **5. Final Setup Instructions**
@@ -98,7 +99,6 @@ After generating local explanations with **LIME**, the outputs are often complex
 
 To ensure that the project runs smoothly, install all necessary Python packages using the following command from your terminal (in your project directory):
 
-```bash
 pip install -r requirements.txt
 
 ## 2. Set Up the .env File
@@ -114,7 +114,6 @@ pip install -r requirements.txt
 ## 3. Run the Streamlit Application
 
 After setting up your environment, run the app by executing this command:
-```bash
 streamlit run app.py
 
 
