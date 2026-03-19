@@ -95,14 +95,14 @@ After generating local explanations with **LIME**, the outputs are often complex
 
 ## **5. Final Setup Instructions**
 
-## 1. Install Dependencies**
+### 1. Install Dependencies**
 
 To ensure that the project runs smoothly, install all necessary Python packages using the following command from your terminal (in your project directory):
    ```
 pip install -r requirements.txt
    ```
 
-## 2. Set Up the .env File
+### 2. Set Up the .env File
 
 - Make sure you have your **Groq API Key** from Groq's API Console.
 - Create a `.env` file in the project root directory (if it doesn't exist already).
@@ -112,13 +112,13 @@ pip install -r requirements.txt
     GROQ_API_KEY=your_generated_api_key
     ```
 
-## 3. Run the Streamlit Application
+### 3. Run the Streamlit Application
 
 After setting up your environment, run the app by executing this command:
 streamlit run app.py
 
 
-## 4. Interacting with the App
+### 4. Interacting with the App
 
 - When the app runs successfully, you'll see a URL in your terminal, usually: 
 
@@ -128,7 +128,7 @@ streamlit run app.py
 
 - Open the URL in your browser to interact with the app.
 
-## 5. Upload Data and Start Training
+### 5. Upload Data and Start Training
 
 - In the **Data & Training** section, you’ll be able to upload your heart disease dataset (e.g., `heart_statlog_cleveland_hungary_final.csv`).
 - Enable the **XAI-Guided Model Improvement** option, and click **Start Training**.
