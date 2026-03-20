@@ -6,6 +6,7 @@
 3. [Evaluation and Model Improvement](#3-evaluation-and-model-improvement)
 4. [Prediction Results and Explanation using LLM](#4-prediction-results-and-explanation-using-llm)
 5. [Final Setup Instructions](#5-final-setup-instructions)
+6. [Demo](#6-demo-link)
 
 ---
 
@@ -164,3 +165,7 @@ After setting up your environment, run the app by executing this command:
 - In the **Data & Training** section, you’ll be able to upload your heart disease dataset (e.g., `heart_statlog_cleveland_hungary_final.csv`).
 - Enable the **XAI-Guided Model Improvement** option, and click **Start Training**.
 - The app will begin training the model and you can monitor the progress.
+
+### 6. **Demo Link**
+
+You can access the demo and further resources for the project through this [Google Drive link](https://drive.google.com/drive/u/0/folders/17yhtrMZ17H5XSnmsv9Ox0T8V_9yj5MC2).
